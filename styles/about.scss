@@ -1,0 +1,168 @@
+$color1:#FFFFFF;
+$color2:#65ff78;
+$back1:#1E2326;
+$back2:#252A2E;
+
+
+.about{
+
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    margin-top:5%;
+}
+.about-head-container{
+    h2{
+        text-align: center;
+
+    }
+    p{
+        font-weight: 100;
+        text-align: left;
+    }
+
+}
+.line{
+    position:relative;
+    text-align:center;
+    height: 1px;
+    background-color: $color2;
+    margin-right: auto; margin-left: auto;
+    margin-bottom: 1%;
+}
+.line1{
+    width:100px;
+
+
+
+}
+.line2{
+    width:50px;
+
+
+}
+.cor{
+    color:$color2;
+
+}
+.personal{
+    margin-top: 5%;
+    h3{
+        text-align:left;
+        margin-left:5%;
+
+        margin-bottom: 2%;
+    }
+     .pd{
+        display:grid;
+        grid-template-columns: 30% auto;
+        margin-bottom:1%;
+    
+     }
+}
+.details-container{
+    margin-left:8%;
+}
+.interests{
+    margin-top: 5%;
+
+    margin-left:10%;
+    h3{
+        margin-bottom: 2%;
+    }
+}
+.free{
+    background-color: $color2;
+    width: 100px;
+    padding:0% 2%;
+
+}
+a{
+    cursor:pointer;
+    text-decoration: none;
+    color:inherit !important;
+}
+
+
+.interests-container{
+    display:grid;
+
+    grid-template-columns: 1fr 1fr;
+}
+.interest{
+    background-color:$back2;
+    max-width:120px;
+    height:90px;
+    border-radius:5px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    margin-bottom:20px;
+    transition:all 0.5s  ease-out  0s;
+
+    i{
+        color:white;
+        font-size:150%;
+        text-align:center;
+        margin-bottom:10px;
+
+    }
+    h6{
+        text-align:center;
+
+
+    }
+}
+.interest:hover{
+    background-color:$color2;
+    cursor:pointer;
+
+
+}
+
+
+@media only screen and (min-width: 768px) {
+    .about{
+
+        margin: 4%;
+    }    
+    .about-details-container{
+        display:grid;
+        grid-template-columns: 30% 50%;
+        width:100vw;
+    
+    }
+    .interests{
+        margin-top: 2%;
+    
+    }    
+    .interest{
+        margin-left:20%;
+    }
+    .personal{
+        margin-left:10%;
+        h3{
+            text-align:left;
+        }
+    }    
+    .details-container{
+        margin-left:5%;
+    }
+
+
+
+.interests-container{
+
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+    
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .interests-container{
+       max-width:90%;
+}
+
+}
