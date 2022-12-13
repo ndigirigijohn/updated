@@ -1,5 +1,15 @@
 const portfolios=[
   {
+    id:0,
+    category:"commercial",
+    image:"https://www.investopedia.com/thmb/Pk6uNfDE1m-3UDl3E-htLoZGYCQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/businessplan_v1_0725-cd245eeb11d643c081fa4654d5ad75cc.png",
+    title:"Mawanji Suppliers Limited",
+    link:"https://mawanjilimited.co.ke/",
+        description:"Conslutation and Service company based in Kenya"
+  
+     },
+
+  {
     id:1,
     category:"utility",
     image:"../resources/p/weather.jpg",
